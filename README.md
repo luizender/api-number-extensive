@@ -1,5 +1,7 @@
 # API Rest to convert number to number in extensive
 
+[![Build Status](https://travis-ci.org/luizender/api-number-extensive.svg?branch=master)](https://travis-ci.org/luizender/api-number-extensive)
+
 API Rest to received a number (between -99999 and 99999) and convert to number in extensive
 
 ## Table of Contents
