@@ -6,14 +6,14 @@ import logging.config
 from flask import Flask
 from flask_restful import Api
 from api.resources import NumberResource
-from api.settings import LOGGING_FILE
+from api.defines import LOGGING_FILE
 
 # Create the API app
 APP = Flask(__name__)
 API = Api(APP)
 
 # URLs of API
-API.add_resource(NumberResource, '/', '/<int:number>')
+API.add_resource(NumberResource, '/', '/<string:number>')
 
 if __name__ == '__main__':
     # set up proper logging.

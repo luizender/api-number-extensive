@@ -7,6 +7,3 @@ services:
         volumes:
             - .:/code
         working_dir: /code
-        environment: 
-            MAX_NUMBER_SUPPORT: 99999
-            MIN_NUMBER_SUPPORT: -99999
