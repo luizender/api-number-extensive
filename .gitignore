@@ -1,0 +1,6 @@
+.venv
+.vscode
+*.pyc
+docs/_*
+docs/build
+docs/source
